@@ -6,7 +6,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
 
-word =   text.scan(/^un-ing$/)
+word =   text.scan(/\b^[un][ing]$\b/)
 binding.pry
 end
 
